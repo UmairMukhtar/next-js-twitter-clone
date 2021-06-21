@@ -1,0 +1,39 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.buttonHover {
+  color: #1da1f2;
+  border: none;
+  border-radius: 25px;
+  width: 65%;
+  background: white;
+  height: 45px;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 30px;
+  border: 1px solid #1da1f2;
+}
+
+.hideScrollBar {
+  -ms-overflow-style: none !important; /* IE and Edge */
+  scrollbar-width: none !important;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hideScrollBar::-webkit-scrollbar {
+  display: none;
+}
